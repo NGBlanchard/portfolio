@@ -6,8 +6,6 @@ $(".screenshots").hover(
     function(){$(this).animate({width: "100%", height:"auto"}, 500);}
 );
 
-
-
 //animation from online library
 var TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
@@ -60,8 +58,5 @@ var TxtRotate = function(el, toRotate, period) {
       }
     }
 
-    var css = document.createElement("style");
-    css.type = "text/css";
-    css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-    document.body.appendChild(css);
+    
   };

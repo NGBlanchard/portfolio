@@ -4,6 +4,8 @@
     box-sizing: border-box;
   }
 
+  .txt-rotate { border-right: 0.08em solid #666 }
+
   body {
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: lighter;
@@ -13,9 +15,9 @@
     color: #263333;
     margin: 0;
     text-align: center;
-  }  
-  
-  main { 
+  } 
+
+  .wrapper { 
     max-width: 960px; 
     margin: 0 auto; 
     padding-left: 2rem;
@@ -252,7 +254,7 @@ p{
 }
 
 @media (min-width: 750px) {
-  main {
+  .wrapper {
     margin: 70px auto 0px auto;
     max-width: 800px;
   }
@@ -325,7 +327,7 @@ li {
 
 /* desktop */
 @media (min-width: 960px) {
-    main {
+    .wrapper {
       margin: 70px auto 0px auto;
       max-width: 800px;
     }
