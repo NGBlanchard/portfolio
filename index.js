@@ -1,10 +1,7 @@
 'use strict';
 
 
-$(".screenshots").hover( 
-    function(){$(this).animate({width: "110%", height:"auto"}, 500);},        
-    function(){$(this).animate({width: "100%", height:"auto"}, 500);}
-);
+
 
 //animation from online library
 var TxtRotate = function(el, toRotate, period) {
