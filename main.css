@@ -59,9 +59,10 @@
   }
 
   .me {
+      border: solid #263333 5px;
       width: 66.6%;
-      margin-top: 20px;
-      border-radius: 2%;
+      margin-top: 15px;
+      border-radius: 50%;
   }
 
   .pic-cont {
